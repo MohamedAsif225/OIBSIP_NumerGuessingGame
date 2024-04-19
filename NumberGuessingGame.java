@@ -6,7 +6,7 @@ public class NumberGuessingGame {
         Scanner sc = new Scanner(System.in);
         Random rand = new Random();
 
-        int sce = 0;
+        int score = 0;
         int minRange = 1;
         int maxRange = 100;
         int randomNo = rand.nextInt(maxRange);
@@ -21,7 +21,7 @@ public class NumberGuessingGame {
             int userNo = sc.nextInt();
 
             if (randomNo == userNo) {
-                System.out.println("Congrats!!, You have guessed the correct number " + randomNumber + " in " + attempts + " attempts");
+                System.out.println("Congrats!!, You have guessed the correct number " + randomNo + " in " + attempts + " attempts");
                 score = maxNoOfAttempts - attempts + 1;
                 break;
             } else if ( randomNo > userNo ) {
