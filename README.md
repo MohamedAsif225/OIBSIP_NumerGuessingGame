@@ -1,2 +1,2 @@
-OIBSIP-NUMBER GUESSING GAME
+OIBSIP-NUMBER GUESSING GAME Task-2:
 At my job in Oasis Infobyte, I had to make a guessing game using Java. The idea was for the game to pick a random number, and the player had to guess it in a few tries. It was a test for my coding skills and made me think about how people would play the game. With help from my mentors, I made the game work well, checking if the player's input was valid, keeping track of scores, and making it easy to use. Finishing this task made me feel good and eager to try harder projects.
